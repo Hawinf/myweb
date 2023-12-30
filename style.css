@@ -1,0 +1,247 @@
+@font-face {
+    font-family: 'Bebas Neue', sans-serif;
+    src: url('./assets/fonts/BebasNeue-Regular.ttf');
+  }
+
+.wrapper {
+    display: flex;
+}
+.wrapper .navbar {
+    position: fixed;
+    width: 70px;
+    background-color: rgb(84, 83, 83);
+    height: 100vh;
+}
+.navbar .kartu-menu {
+    padding: 20px 0 170px 20px;
+    background-color: rgb(84, 83, 83);
+}
+.kartu-menu .menu {
+    width: 40px;
+}
+.kartu-sosmed {
+    padding: 40px 20px;
+    background-color: black;
+}
+.kartu-sosmed .sosmed-icon {
+    width: 30px;
+    margin-bottom: 10px;
+}
+.kartu-logo {
+    padding: 41px 10px 41px 20px;
+    background-color: yellow;
+    padding-top: 50px;
+    padding-left: 10px;
+    /* height: 50px; */
+    height: 100%;
+}
+.kartu-logo .logo {
+    width: 40px;
+}
+
+/* start main-kontent */
+.main {
+    width: 100%;
+}
+.main-kontent {
+    background-color: black;
+    width: 100%;
+    padding: 140px 0;
+    /* height: 100vh; */
+    /* font-family: 'Bebas Neue', sans-serif; */
+}
+.main-kontent .main-judul {
+    color: white;
+    text-align: center;
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 55px;
+}
+/* /* end main-kontent * */
+.background {
+    background-image: url('./assets/images/background.jpg');
+    height: 290px;
+    background-size: cover;
+    padding-left: 60px;
+    padding-top: 100px;
+}
+.background .bg-judul {
+    font-size: 40px;
+    color: yellow;
+    margin-left: 70px;
+}
+/* awal about */
+.about {
+    /* background-color: black; */
+    background-image: url('./assets/images/pexels-pixabay-267961.jpg');
+    display: flex;
+    padding: 59px 0 60px 120px;
+}
+.about-left {
+    width: 40%;
+}
+.about-left .about-judul {
+    color: yellow;
+    font-size: 70px;
+    font-weight: 700;
+}
+.about .about-right {
+    width: 50%;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: white;
+    letter-spacing: 2px;
+}
+/* akhir about */
+.copyright {
+    background-color: black;
+    /* background-image: url('./assets/images/background.jpg'); */
+    padding: 31px 0;
+    text-align: center;
+    height: 50px;
+    color: yellow;
+}
+.copyright .img-footer {
+    width: 40px;
+    margin-bottom: 5px;
+}
+
+@media (max-width:992px) {
+    .background {
+        padding-top: 20px;
+        padding-left: 40px;
+    }
+}
+
+@media (max-width:768px) {
+    .wrapper .navbar {
+        width: 50px;
+    }
+    .navbar .kartu-menu {
+        padding: 10px 0 170px 10px;
+    }
+    .kartu-menu .menu {
+        width: 30px;
+    }
+    .kartu-sosmed {
+        padding: 40px 10px;
+    }
+    .kartu-logo {
+        padding-left: 10px;
+    }
+    .kartu-logo .logo {
+        width: 30px;
+    }
+    .main-kontent .main-judul {
+        font-size: 60px;
+        line-height: 41px;
+    }
+    .background {
+        padding-top: 30px;
+        padding-left: 18px;
+        height: 229px;
+    }
+    .about {
+        display: block;
+        padding-left: 80px;
+    }
+    .about .about-right {
+        margin-left: 0;
+        width: 85%;
+    }
+}
+
+@media (max-width:576px) {
+    .main-kontent .main-judul {
+        font-size: 40px;
+        line-height: 30px;
+    }
+    .background {
+        padding-top: 30px;
+        padding-left: 2px;
+    }
+    .background .bg-judul {
+        font-size: 20px;
+    }
+    .about {
+        padding-left: 70px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
