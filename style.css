@@ -59,7 +59,8 @@
 }
 /* /* end main-kontent * */
 .background {
-    background-image: url('./assets/images/background.jpg');
+    /* background-image: url('./assets/images/background.jpg'); */
+    background-image: url('./assets/images/TEST.jpg');
     height: 290px;
     background-size: cover;
     padding-left: 60px;
@@ -159,15 +160,40 @@
     .background {
         padding-top: 30px;
         padding-left: 2px;
+        height: 160px;
+        margin-left: 40px;
     }
     .background .bg-judul {
         font-size: 20px;
+        margin-left: 50px;
     }
     .about {
         padding-left: 70px;
     }
 }
 
+@media (max-width:500px) {
+    .background {
+        height: 130px;
+    }
+    .about-left .about-judul {
+        font-size: 50px;
+    }
+}
+
+@media (max-width:400px) {
+    .background {
+        height: 100px;
+    }
+    .main-kontent .main-judul {
+        font-size: 30px;
+        line-height: 24px;
+    }
+    .background .bg-judul {
+        font-size: 20px;
+        margin-left: 35px;
+    }
+}
 
 
 
