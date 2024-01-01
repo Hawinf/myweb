@@ -6,268 +6,283 @@
 .wrapper {
     display: flex;
 }
-.wrapper .navbar {
-    position: fixed;
-    width: 70px;
-    background-color: rgb(84, 83, 83);
+.navbar-section {
+    background-color: black;
+    width: 50px;
     height: 100vh;
+    padding: 5px;
+    position: fixed;
 }
-.navbar .kartu-menu {
-    padding: 20px 0 170px 20px;
-    background-color: rgb(84, 83, 83);
+.nav-menu .menu {
+    height: 40px;
+    margin-bottom: 230px;
+    cursor: pointer;
 }
-.kartu-menu .menu {
-    width: 40px;
+.nav-sosmed {
+    margin-bottom: 70px;
 }
-.kartu-sosmed {
-    padding: 40px 20px;
-    background-color: black;
-}
-.kartu-sosmed .sosmed-icon {
-    width: 30px;
-    margin-bottom: 10px;
-}
-.kartu-logo {
-    padding: 41px 10px 41px 20px;
-    background-color: yellow;
-    padding-top: 50px;
-    padding-left: 10px;
-    /* height: 50px; */
-    height: 100%;
-}
-.kartu-logo .logo {
-    width: 40px;
-}
-
-/* start main-kontent */
-.main {
-    width: 100%;
-}
-.main-kontent {
-    background-color: black;
-    width: 100%;
-    padding: 140px 0;
-    /* height: 100vh; */
-    /* font-family: 'Bebas Neue', sans-serif; */
-}
-.main-kontent .main-judul {
-    color: white;
-    text-align: center;
-    font-size: 75px;
-    font-weight: 700;
-    line-height: 55px;
-}
-/* /* end main-kontent * */
-.background {
-    /* background-image: url('./assets/images/background.jpg'); */
-    background-image: url('./assets/images/TEST.jpg');
-    height: 290px;
-    background-size: cover;
-    padding-left: 60px;
-    padding-top: 100px;
-}
-.background .bg-judul {
-    font-size: 40px;
-    color: yellow;
-    margin-left: 70px;
-}
-/* awal about */
-.about {
-    /* background-color: black; */
-    background-image: url('./assets/images/pexels-pixabay-267961.jpg');
-    display: flex;
-    padding: 59px 0 60px 120px;
-}
-.about-left {
-    width: 40%;
-}
-.about-left .about-judul {
-    color: yellow;
-    font-size: 70px;
-    font-weight: 700;
-}
-.about .about-right {
-    width: 50%;
-    margin-left: 20px;
-    margin-top: 10px;
-    color: white;
-    letter-spacing: 2px;
-}
-/* akhir about */
-.copyright {
-    background-color: black;
-    /* background-image: url('./assets/images/background.jpg'); */
-    padding: 31px 0;
-    text-align: center;
-    height: 50px;
-    color: yellow;
-}
-.copyright .img-footer {
-    width: 40px;
+.nav-sosmed .sosmed {
+    height: 40px;
     margin-bottom: 5px;
 }
-
-@media (max-width:992px) {
-    .background {
-        padding-top: 20px;
-        padding-left: 40px;
-    }
+.nav-logo .logo {
+    height: 40px;
+}
+.main-konten {
+    height: 100vh;
+    width: 100%;
+    margin-left: 50px;
+    background-color: #000000;
+    opacity: 1;
+    background-image:  linear-gradient(30deg, #1a1a1f 12%, transparent 12.5%, transparent 87%, #1a1a1f 87.5%, #1a1a1f), linear-gradient(150deg, #1a1a1f 12%, transparent 12.5%, transparent 87%, #1a1a1f 87.5%, #1a1a1f), linear-gradient(30deg, #1a1a1f 12%, transparent 12.5%, transparent 87%, #1a1a1f 87.5%, #1a1a1f), linear-gradient(150deg, #1a1a1f 12%, transparent 12.5%, transparent 87%, #1a1a1f 87.5%, #1a1a1f), linear-gradient(60deg, #1a1a1f77 25%, transparent 25.5%, transparent 75%, #1a1a1f77 75%, #1a1a1f77), linear-gradient(60deg, #1a1a1f77 25%, transparent 25.5%, transparent 75%, #1a1a1f77 75%, #1a1a1f77);
+    background-size: 20px 35px;
+    background-position: 0 0, 0 0, 10px 18px, 10px 18px, 0 0, 10px 18px;
+}
+.main-head {
+    margin: 80px 0 20px ;
+    font-family: 'Bebas Neue', sans-serif;
+    
+}
+.main-head .main-judul {
+    font-weight: 700;
+    text-align: center;
+    font-size: 70px;
+    line-height: 43px;
+    -webkit-text-fill-color: #f5f5f500;
+    -webkit-text-stroke-width: 1px;
+    color: #fffefe;
+}
+.main-judul span {
+    -webkit-text-fill-color: #b7a6a6;
+}
+.main-judul .span1 {
+    margin-left: 70px;
+}
+.main-head .main-judul1 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 70px;
+    line-height: 43px;
+    -webkit-text-fill-color: #f5f5f500;
+    -webkit-text-stroke-width: 1px;
+    color: #fffefe;
+    margin-left: 100px;
+}
+.main-judul1 span {
+    -webkit-text-fill-color: #b7a6a6;
+}
+.main-head .main-judul3 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 70px;
+    line-height: 43px;
+    -webkit-text-fill-color: #b7a6a6;
+    -webkit-text-stroke-width: 1px;
+    color: #fffefe;
+    margin-right: 50px;
+    /* letter-spacing: 12px; */
+}
+.contact {
+    margin-top: 30px;
+    text-align: center;
+}
+.contact .tombol1 {
+    background-color: #b7a6a6;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 700;
+    border: 2px solid white;
+}
+.contact .tombol2 {
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 700;
+    color: whitesmoke;
+}
+.menu-sidebar {
+    font-size: 30px;
+    color: white;
+    /* margin-left: 50px; */
+    position: absolute;
+    height: 100vh;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    width: 300px;
+    display: none;
+    transition: 0.3s;
+}
+.menu-sidebar .sidebar-top {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    padding-bottom: 30px;
+}
+.menu-sidebar .logo-top {
+    height: 35px;
+    
+}
+.menu-sidebar .logo-top1 {
+    height: 35px;
+    cursor: pointer;
+}
+.menu-sidebar .sectionmenu a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.menu-sidebar.aktif {
+    display: block;
+}
+.about {
+    /* background: rgb(82, 78, 78); */
+    background-color: black;
+    padding: 20px 0;
+    font-family: 'Bebas Neue', sans-serif;
+    margin-left: 50px;
+}
+.about .judul-about {
+    -webkit-text-fill-color: #f5f5f500;
+    -webkit-text-stroke-width: 1px;
+    color: #fffefe;
+    font-size: 30px;
+}
+.about .desk-about {
+    font-size: 17px;
+    color: rgb(130, 129, 126);
+    letter-spacing: 2px;
+}
+.work {
+    margin-left: 50px;
+    padding: 30px 0;
+    /* background-color: #2c2929; */
+    background-color: #000000;
+opacity: 1;
+background-image: radial-gradient(#1a1a1f 0.8500000000000001px, #000000 0.8500000000000001px);
+background-size: 17px 17px;
+}
+.work .judul-work {
+    -webkit-text-fill-color: #f5f5f500;
+    -webkit-text-stroke-width: 1px;
+    color: #fffefe;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.work-kartu {
+    /* border: 1px solid white; */
+    border-radius: 3px;
+    /* background-color: wheat; */
+}
+.work-kartu img {
+    height: 270px;
+    width: 100%;
+    border-radius: 3px;
+    
+}
+.work-kartu a {
+    color: rgb(130, 129, 126);
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.work-kartu p {
+    font-size: 12px;
 }
 
 @media (max-width:768px) {
-    .wrapper .navbar {
-        width: 50px;
-    }
-    .navbar .kartu-menu {
-        padding: 10px 0 170px 10px;
-    }
-    .kartu-menu .menu {
-        width: 30px;
-    }
-    .kartu-sosmed {
-        padding: 40px 10px;
-    }
-    .kartu-logo {
-        padding-left: 10px;
-    }
-    .kartu-logo .logo {
-        width: 30px;
-    }
-    .main-kontent .main-judul {
+    .main-head .main-judul {
         font-size: 60px;
-        line-height: 41px;
+        line-height: 35px;
     }
-    .background {
-        padding-top: 30px;
-        padding-left: 18px;
-        height: 229px;
+    .main-head .main-judul1 {
+        font-size: 60px;
+        line-height: 35px;
     }
-    .about {
-        display: block;
-        padding-left: 80px;
+    .main-head .main-judul3 {
+        font-size: 60px;
+        line-height: 35px;
     }
-    .about .about-right {
-        margin-left: 0;
-        width: 85%;
+    .work-kartu img {
+        height: 200px;
+        
     }
 }
 
 @media (max-width:576px) {
-    .main-kontent .main-judul {
-        font-size: 40px;
-        line-height: 30px;
+    .wrapper {
+        display: block;
     }
-    .background {
-        padding-top: 30px;
-        padding-left: 2px;
-        height: 160px;
-        margin-left: 40px;
+    .navbar-section {
+        position: relative;
+        height: 50px;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 10px;
     }
-    .background .bg-judul {
-        font-size: 20px;
-        margin-left: 50px;
+    .nav-menu .menu {
+        height: 30px;
+    }
+    .nav-sosmed {
+        display: none;
+    }
+    .nav-logo .logo {
+        height: 30px;
+    }
+    .main-konten {
+        margin-left: 0;
+    }
+    .main-head {
+        margin-top: 0;
+        padding-top: 70px;
+    }
+    .contact .tombol1 {
+        padding: 5px;
+    }
+    .contact .tombol2 {
+        padding: 5px;
     }
     .about {
-        padding-left: 70px;
+        margin-left: 0;
+    }
+    .work {
+        margin-left: 0;
+    }
+    .work-kartu img {
+        height: 240px;
+        
     }
 }
 
-@media (max-width:500px) {
-    .background {
-        height: 130px;
-    }
-    .about-left .about-judul {
+@media (max-width:527px) {
+    .main-head .main-judul {
         font-size: 50px;
+        line-height: 30px;
+    }
+    .main-head .main-judul1 {
+        font-size: 50px;
+        line-height: 30px;
+    }
+    .main-head .main-judul3 {
+        font-size: 50px;
+        line-height: 30px;
     }
 }
 
-@media (max-width:400px) {
-    .background {
-        height: 100px;
+@media (max-width:442px) {
+    .main-head .main-judul {
+        font-size: 40px;
+        line-height: 25px;
     }
-    .main-kontent .main-judul {
-        font-size: 30px;
-        line-height: 24px;
+    .main-head .main-judul1 {
+        font-size: 40px;
+        line-height: 25px;
     }
-    .background .bg-judul {
-        font-size: 20px;
-        margin-left: 35px;
+    .main-head .main-judul3 {
+        font-size: 40px;
+        line-height: 25px;
     }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
 }
