@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Bebas Neue', sans-serif;
+    src: url('./assets/fonts/BebasNeue-Regular.ttf');
+}
+@font-face {
+    font-family: 'Caveat', sans-serif;
+    src: url('./assets/fonts/Caveat-Bold.ttf');
+}
+.header-section {
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper {
+    padding: 20px 40px;
+}
+.head-left img {
+    width: 40px;
+    height: 40px;
+}
+.social-icon {
+    margin-bottom: 10px;
+}
+.social-icon img {
+    width: 25px;
+}
+.section-atas {
+    display: flex;
+    justify-content: space-between;
+}
+.section-atas .name {
+    margin-top: 180px;
+    font-family: 'Caveat', sans-serif;
+    margin-bottom: 0;
+    font-size: 50px;
+    letter-spacing: 4px;
+}
+.section-atas .name span {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+    -webkit-text-fill-color: #fff7f700;
+    -webkit-text-stroke-width: 1px;
+    color: #0f0909;
+    margin-top: 30px;
+}
+.atas-left {
+    width: 70%;
+}
+.atas-left p {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 17px;
+    word-spacing: 3px;
+    color: rgb(61, 60, 60);
+}
+.atas-left .button1 {
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 10px 15px;
+    border-radius: 3px;
+    border-color: #0f0909;
+    background-color: transparent;
+    cursor: pointer;
+}
+.atas-left .button2 {
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 10px 15px;
+    border-radius: 3px;
+    border-color: #0f0909;
+    background-color:  black;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.atas-right {
+    width: 25%;
+}
+.atas-right img {
+    margin-top: 90px;
+    width: 260px;
+}
+footer h6 {
+    color: rgb(93, 91, 91);
+}
+
+
+@media (max-width:768px) {
+    .section-atas {
+        flex-direction: column-reverse;
+    }
+    .atas-left {
+        width: 95%;
+    }
+    .atas-right img {
+        margin-top: 10px;
+        width: 200px;
+    }
+    .section-atas .name {
+        margin-top: 10px;
+        font-size: 50px;
+        letter-spacing: 1px;
+    }
+    .atas-left p {
+        font-size: 11px;
+        word-spacing: 1px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:576px) {
+    .social-icon img {
+        width: 20px;
+    }
+}

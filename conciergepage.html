@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/images/logo-white.png">
+    <link rel="stylesheet" href="./conciergepage.css">
+    <title>Live More Simple</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="navbar">
+            <div class="navbar-menu">
+                <div class="nav-left">
+                    <img src="./assets/images/logo-no-background.png" alt="hawin">
+                </div>
+                <div class="nav-right" id="toggleButton">
+                    <img src="./assets/images/layout.png" alt="menu">
+                </div>
+            </div>
+            <div class="nav-tagline">
+                <h2>Free Up Your Time, <span>Let Us Handle the Rest</span></h2>
+                <p>Need assistance? We're just a click away. From booking reservations to organizing your day, we provide personalized support whenever and wherever you need it, helping you stay on top of your busy life.</p>
+                <button>Join Member</button>
+            </div>
+        </div>
+
+        <div class="section-about">
+            <div class="about-company">
+                <h2>Your Personal Assistant, Anytime and Anywhere</h2>
+                <p>We provide tailored concierge services designed to take the stress out of your daily life and business operations. Whether you're an individual looking for seamless personal assistance with appointments, errands, and travel, or a business in need of 24/7 support and multi-language services, we’ve got you covered.</p>
+                <p>Join us today, and let us redefine the way you experience personal and professional service. Your time is valuable – and we’re here to make sure you can make the most of it.</p>
+            </div>
+            <div class="about-benefit">
+                <div class="box-benefit">
+                    <h6>Time-Saving</h6>
+                </div>
+                <div class="box-benefit">
+                    <h6>24/7 Availability</h6>
+                </div>
+                <div class="box-benefit">
+                    <h6>Multi-Language Support</h6>
+                </div>
+                <div class="box-benefit">
+                    <h6>Expert Assistance</h6>
+                </div>
+                <div class="box-benefit">
+                    <h6>Stress-Free Experience</h6>
+                </div>
+                <div class="box-benefit">
+                    <h6>Increased Productivity</h6>
+                </div>
+            </div>
+        </div>
+        <div class="service-section">
+            <div class="service-container">
+                <div class="service-box">
+                    <img src="./assets/images/appointment-service.jpg" alt="">
+                    <div class="service-desc">
+                        <h6>Appointment Scheduling</h6>
+                        <p href="">Manage personal or professional calendars, set reminders, and book appointments for clients.</p>
+                        <a href="">Read more</a>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <img src="./assets/images/travel-service.jpg" alt="">
+                    <div class="service-desc">
+                        <h6>Travel Arrangements</h6>
+                        <p href="">Handle flight bookings, hotel accommodations, rental cars, and itinerary planning. </p>
+                        <a href="">Read more</a>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <img src="./assets/images/reservation-service.jpg" alt="">
+                    <div class="service-desc">
+                        <h6>Reservation</h6>
+                        <p href="">Secure reservations at top restaurants, exclusive events, or hard-to-book spots, ensuring clients get VIP treatment.</p>
+                        <a href="">Read more</a>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <img src="./assets/images/event-service.jpg" alt="">
+                    <div class="service-desc">
+                        <h6>Event Planning</h6>
+                        <p href="">Coordinate personal events like birthdays, anniversaries, and small gatherings, as well as large events like weddings, corporate events, or holiday parties.</p>
+                        <a href="">Read more</a>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <img src="./assets/images/customer-service.jpg" alt="">
+                    <div class="service-desc">
+                        <h6>Customer Service 25/7</h6>
+                        <p href="">Provide exceptional assistance by managing customer inquiries, resolving issues, and offering personalized solutions. Whether it's handling support tickets, troubleshooting problems, or guiding customers through product features, we ensure a smooth and responsive experience that builds trust and satisfaction.</p>
+                        <a href="">Read more</a>
+                    </div>
+                </div>
+                <div class="service-box">
+                    <img src="./assets/images/household-service.jpg" alt="">
+                    <div class="service-desc">
+                        <h6>Household Management</h6>
+                        <p href="">Help manage home services like cleaning, maintenance, repair coordination, or organizing home offices.</p>
+                        <a href="">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-member">
+                <div class="member-left">
+                    <img src="./assets/images/getgoodsleep.png" alt="join">
+                </div>
+                <div class="member-right">
+                    <h1>Free Up Your Time, Let Us Handle the Rest</h1>
+                    <button>Joine member now</button>
+                </div>
+            </div>
+        </div>
+        <div class="section-footer">
+            <div class="footer-left">
+                <p>© Hawinf 2025 | Made with &#x2661;</p>
+            </div>
+        </div>
+
+    </div>
+    
+
+    <div class="menu" id="menu">
+        <div class="close-menu" id="closeButton">
+            <img src="./assets/images/closemenu.png" alt="close menu">
+        </div>
+        <p>Time is precious, and we're here to give you more of it. Whether you're juggling work, family, or travel, we handle everything else. Let us take care of your errands, appointments, and daily needs so you can focus on what’s important.</p>
+        <div class="menu-box">
+            <a href="#section-about">About</a>
+        </div>
+        <div class="menu-box">
+            <a href="">Service</a>
+        </div>
+        <div class="menu-box">
+            <a href="">Package</a>
+        </div>
+        <div class="menu-box">
+            <a href="">Contact</a>
+        </div>
+    </div>
+
+
+
+    <script>
+        const toggleButton = document.getElementById('toggleButton');
+        const menu = document.getElementById('menu');
+        const closeButton = document.getElementById('closeButton');
+        const container = document.getElementById('container')
+
+        // Add event listener to the toggle button to show the menu
+        toggleButton.addEventListener('click', function() {
+            menu.style.display = 'block'; // Show the menu
+            container.style.display = 'none';
+        });
+
+        // Add event listener to the close button to hide the menu
+        closeButton.addEventListener('click', function() {
+            menu.style.display = 'none'; // Hide the menu
+            container.style.display = 'block';
+    });
+    </script>
+</body>
+</html>
