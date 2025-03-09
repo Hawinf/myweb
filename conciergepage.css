@@ -225,7 +225,7 @@ body {
 }
 @media (max-width:768px) {
     .navbar {
-        height: 400px;
+        height: 500px;
     }
     .nav-tagline h2 {
         font-size: 34px;
@@ -311,5 +311,8 @@ body {
     .service-box img {
         width: 100%;
         height: 100%;
+    }
+    .member-left img {
+        width: 300px;
     }
 }
