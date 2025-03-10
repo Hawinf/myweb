@@ -185,6 +185,25 @@ body {
 .service-box .service-desc {
     padding: 20px;
 }
+.section-easy {
+    margin: 20px;
+    padding: 100px 0 0 0;
+    width: 60%;
+    margin: auto;
+    display: flex;
+}
+.section-easy img {
+    width: 300px;
+}
+.easy-right {
+    margin-top: 40px;
+}
+.easy-right h2 {
+    color: rgba(153, 205, 50, 0.696);
+}
+.easy-right p {
+    color: whitesmoke;
+}
 .container-member {
     background-color:  rgba(116, 104, 104, 0.116);
     margin: 70px 20px;
@@ -246,6 +265,9 @@ body {
     .menu-box a {
         font-size: 20px;
     }
+    .section-easy {
+        width: 80%;
+    }
 }
 @media (max-width:768px) {
     .navbar {
@@ -286,6 +308,12 @@ body {
     }
     .service-container {
         width: 90%;
+    }
+    .section-easy {
+        width: 85%;
+    }
+    .section-easy img {
+        width: 250px;
     }
     .container-member {
         display: block;
@@ -344,6 +372,12 @@ body {
     .service-box img {
         width: 100%;
         height: 100%;
+    }
+    .easy-right {
+        margin-top: 0;
+    }
+    .easy-right p {
+        font-size: 11px;
     }
     .member-left img {
         width: 300px;
