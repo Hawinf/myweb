@@ -122,6 +122,7 @@
     </div>
     
 
+    <div class="overlay"></div>
     <div class="menu" id="menu">
         <div class="close-menu" id="closeButton">
             <img src="./assets/images/closemenu.png" alt="close menu">
@@ -148,17 +149,21 @@
         const menu = document.getElementById('menu');
         const closeButton = document.getElementById('closeButton');
         const container = document.getElementById('container')
+        const overlay = document.querySelector('.overlay')
 
         // Add event listener to the toggle button to show the menu
         toggleButton.addEventListener('click', function() {
             menu.style.display = 'block'; // Show the menu
-            container.style.display = 'none';
+            container.style.display = 'block';
+            // overlay.classList.add('on');
+            overlay.style.display = 'block';
         });
 
         // Add event listener to the close button to hide the menu
         closeButton.addEventListener('click', function() {
             menu.style.display = 'none'; // Hide the menu
             container.style.display = 'block';
+            overlay.style.display = 'none';
     });
     </script>
 </body>

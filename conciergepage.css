@@ -57,16 +57,30 @@ body {
     cursor: pointer;
     font-weight: 700;
 }
+.overlay {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 1;
+    display: none;
+    transition: 0.3s;
+    position: fixed;
+}
 .menu {
     /* background-image: url('./assets/images/bg-con1.jpg'); */
     background-color: rgb(0, 0, 0);
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 100vh;
+    position: fixed;
     background-size: cover;
     padding-top: 70px;
     top: 0;
-    position: absolute;
+    /* position: absolute; */
     display: none;
+    right: 0;
 }
 .menu .close-menu {
     text-align: center;
@@ -222,6 +236,16 @@ body {
     .service-container {
         width: 70%;
     }
+    .menu {
+        padding-top: 30px;
+    }
+    .menu p {
+        width: 90%;
+        letter-spacing: 1px;
+    }
+    .menu-box a {
+        font-size: 20px;
+    }
 }
 @media (max-width:768px) {
     .navbar {
@@ -269,6 +293,9 @@ body {
     .member-left {
         text-align: center;
     }
+    .menu .close-menu {
+        margin-bottom: 20px;
+    }
 }
 @media (max-width:576px) {
     .navbar {
@@ -296,8 +323,14 @@ body {
     .menu {
         padding: 0px;
     }
+    .menu p {
+        font-size: 9px;
+    }
     .menu-box {
         padding: 15px 0;
+    }
+    .menu-box a {
+        font-size: 14px;
     }
     .menu .close-menu {
         margin-bottom: 10px;
