@@ -204,6 +204,15 @@ body {
 .easy-right p {
     color: whitesmoke;
 }
+.easy-button {
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 700;
+    color: whitesmoke;
+    cursor: pointer;
+    /* background-color: transparent; */
+    background-color:  rgba(151, 136, 136, 0.121);
+}
 .container-member {
     background-color:  rgba(116, 104, 104, 0.116);
     margin: 70px 20px;
@@ -220,6 +229,7 @@ body {
 .member-right h1 {
     letter-spacing: 3px;
     font-size: 40px;
+    color: rgba(153, 205, 50, 0.696);
 }
 .member-right button {
     padding: 10px;
@@ -317,6 +327,9 @@ body {
     .section-easy img {
         width: 100%;
         margin-top: 50px;
+    }
+    .easy-right {
+        text-align: center;
     }
     .container-member {
         display: block;
