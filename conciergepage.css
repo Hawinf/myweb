@@ -307,13 +307,16 @@ body {
         padding: 10px 0;
     }
     .service-container {
-        width: 90%;
+        width: 100%;
     }
     .section-easy {
         width: 85%;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
     }
     .section-easy img {
-        width: 250px;
+        width: 100%;
+        margin-top: 50px;
     }
     .container-member {
         display: block;
