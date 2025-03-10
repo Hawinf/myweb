@@ -32,7 +32,7 @@ body {
     text-align: center;
 }
 .nav-tagline h2 {
-    color: rgb(141, 94, 94);
+    color: rgba(153, 205, 50, 0.696);
     font-size: 50px;
     margin-bottom: 0;
     letter-spacing: 3px;
@@ -48,7 +48,7 @@ body {
     letter-spacing: 2px;
     /* font-weight: 700; */
 }
-.nav-tagline button {
+.nav-tagline a {
     padding: 7px 10px;
     background-color: transparent;
     border-radius: 4px;
@@ -56,6 +56,8 @@ body {
     color: whitesmoke;
     cursor: pointer;
     font-weight: 700;
+    text-decoration: none;
+    border: 1px solid  rgba(153, 205, 50, 0.696);
 }
 .overlay {
     position: absolute;
@@ -205,13 +207,15 @@ body {
     color: whitesmoke;
 }
 .easy-button {
-    padding: 10px;
-    border-radius: 20px;
-    font-size: 700;
+    padding: 7px 10px;
+    background-color: transparent;
+    border-radius: 4px;
+    border-color: wheat;
     color: whitesmoke;
     cursor: pointer;
-    /* background-color: transparent; */
-    background-color:  rgba(151, 136, 136, 0.121);
+    font-weight: 700;
+    text-decoration: none;
+    border: 1px solid  rgba(153, 205, 50, 0.696);
 }
 .container-member {
     background-color:  rgba(116, 104, 104, 0.116);
@@ -231,14 +235,21 @@ body {
     font-size: 40px;
     color: rgba(153, 205, 50, 0.696);
 }
-.member-right button {
-    padding: 10px;
-    border-radius: 20px;
-    font-size: 700;
+.member-right h1 span {
+    letter-spacing: 3px;
+    font-size: 40px;
+    color: whitesmoke;
+}
+.member-right a {
+    padding: 7px 10px;
+    background-color: transparent;
+    border-radius: 4px;
+    border-color: wheat;
     color: whitesmoke;
     cursor: pointer;
-    /* background-color: transparent; */
-    background-color:  rgba(151, 136, 136, 0.121);
+    font-weight: 700;
+    text-decoration: none;
+    border: 1px solid  rgba(153, 205, 50, 0.696);
 }
 .section-footer {
     background-color: black;

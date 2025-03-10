@@ -21,7 +21,7 @@
             <div class="nav-tagline">
                 <h2>Free Up Your Time, <span>Let Us Handle the Rest</span></h2>
                 <p>Need assistance? We're just a click away. From booking reservations to organizing your day, we provide personalized support whenever and wherever you need it, helping you stay on top of your busy life.</p>
-                <button>Become Member</button>
+                <a href="https://wa.me/971506841998">Become Member</a>
             </div>
         </div>
 
@@ -110,7 +110,7 @@
                 <div class="easy-right">
                     <h2>Get it done fast – just one click!</h2>
                     <p>Be our member and enjoy personalized support, seamless solutions, and exclusive benefits tailored to your needs.</p>
-                    <button class="easy-button">What is included</button>
+                    <button onclick="downloadPDF()" class="easy-button">Inclusions</button>
                 </div>
             </div>
             <div class="container-member" id="contact">
@@ -118,8 +118,8 @@
                     <img src="./assets/images/getgoodsleep.png" alt="join">
                 </div>
                 <div class="member-right">
-                    <h1>Free Up Your Time, Let Us Handle the Rest</h1>
-                    <button>Become member</button>
+                    <h1>Free Up Your Time, <span>Let Us Handle the Rest</span></h1>
+                    <a href="https://wa.me/971506841998">Become member</a>
                 </div>
             </div>
         </div>
@@ -155,6 +155,20 @@
 
 
     <script>
+
+    function downloadPDF() {
+            // URL of the PDF file you want to download
+            var pdfUrl = './assets/images/logo-black.png';
+
+            // Create a temporary link element
+            var link = document.createElement('a');
+            link.href = pdfUrl;
+            link.download = 'WhatsInside.png';  // Optional: set a custom filename
+
+            // Trigger a click on the link to start the download
+            link.click();
+    }
+
         const toggleButton = document.getElementById('toggleButton');
         const menu = document.getElementById('menu');
         const closeButton = document.getElementById('closeButton');
@@ -175,6 +189,8 @@
             container.style.display = 'block';
             overlay.style.display = 'none';
     });
+
+    
     </script>
 </body>
 </html>
