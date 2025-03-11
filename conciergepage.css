@@ -199,6 +199,7 @@ body {
 }
 .easy-right {
     margin-top: 40px;
+    margin-left: 60px;
 }
 .easy-right h2 {
     color: rgba(153, 205, 50, 0.696);
@@ -343,6 +344,9 @@ body {
     .service-container {
         width: 100%;
     }
+    .service-section {
+        padding: 100px 50px;
+    }
     .section-easy {
         width: 85%;
         flex-wrap: wrap;
@@ -354,6 +358,11 @@ body {
     }
     .easy-right {
         text-align: center;
+        margin-left: 0;
+    }
+    .easy-button1 {
+        width: 100%;
+        margin: 20px 20px 20px 0;
     }
     .container-member {
         display: block;
