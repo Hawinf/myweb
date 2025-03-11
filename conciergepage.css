@@ -307,6 +307,7 @@ body {
 @media (max-width:768px) {
     .navbar {
         height: 500px;
+        border-bottom-left-radius: 0;
     }
     .nav-tagline h2 {
         font-size: 34px;
@@ -346,6 +347,7 @@ body {
     }
     .service-section {
         padding: 100px 50px;
+        border-top-right-radius: 0;
     }
     .section-easy {
         width: 85%;
