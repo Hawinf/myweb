@@ -218,6 +218,18 @@ body {
     text-decoration: none;
     border: 1px solid  rgba(153, 205, 50, 0.696);
 }
+.easy-button1 {
+    margin-top: 20px;
+    padding: 8px 10px;
+    background-color: transparent;
+    border-radius: 4px;
+    border-color: black;
+    color: black;
+    cursor: pointer;
+    font-weight: 700;
+    text-decoration: none;
+    border: 1px solid  black;
+}
 .container-member {
     background-color:  rgba(116, 104, 104, 0.116);
     margin: 170px 20px;
